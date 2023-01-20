@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+#gradient {
+   /* background-color: rgba(4, 104, 104, 0.6); */
+   background-image: linear-gradient(to bottom right, #f709096f, #1004fd89);
+   ;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+header {
+    background-image: url('media/banner.jpg');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+header h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #7d2b28;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+main {
+    margin: auto;
+}
+
+table {
+    margin: auto;
+    line-height: 1.4;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 5px 5px;
+    margin-top: 10px;
+}
+
+table th {
+    font-size: larger;
+    letter-spacing: 1.5px;
+    text-align: left;
+}
+
+table, th, td {
+    border: 3px solid rgba(255, 255, 255, 0.678);
+    border-collapse: collapse;
+}
+
+th, td {
+    padding-left: 4px;
+    padding-right: 5px;
+}
