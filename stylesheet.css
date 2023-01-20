@@ -23,7 +23,7 @@ h1 {
 }
 
 header {
-    background-image: url('media/banner.jpg');
+    background-image: url('banner.jpg');
     height: 300px;
     background-repeat: no-repeat;
     background-position: center;
